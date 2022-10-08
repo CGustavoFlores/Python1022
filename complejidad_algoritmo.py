@@ -18,8 +18,8 @@ for i in range(4):
     suma2=suma_constante(cantidad)
     t2=time.time()
     
-    print("{}  -  {}".format(suma1,t1-t0))
-    print("{}  -  {}".format(suma2,t2-t1))
+    print("lineal " + "{}  -  {}".format(suma1,t1-t0))
+    print("constante " + "{}  -  {}".format(suma2,t2-t1))
     
     cantidad*=10
     
